@@ -12,10 +12,10 @@ long int l_int_var;
 long long int ll_int_var;
 float f_int;
 
-printf("Size of a cahr:", sizeof(char_var), "byte(s)\n");
-printf("Size of an int:", sizeof(int_var), "byte(s)\n");
-printf("Size of a long int:", sizeof(l_int_var), "byte(s)\n");
-printf("Size of a long long int:", sizeof(ll_int_var), "byte(s)\n");
-printf("Size of a float:", sizeof(f_int), "byte(s)\n");
+printf("Size of a cahr: %i byte(s)\n", sizeof(char_var));
+printf("Size of an int: %i byte(s)\n", sizeof(int_var));
+printf("Size of a long int: %i byte(s)\n", sizeof(l_int_var));
+printf("Size of a long long int: %i byte(s)\n", sizeof(ll_int_var));
+printf("Size of a float: %i byte(s)\n", sizeof(f_int);
 return (0);
 }
