@@ -6,6 +6,6 @@
  */
 int main(void) /* start of the program */
 {
-puts("\"Programming is like building a multilingual puzzle.\n"); /* program */
+puts("\"Programming is like building a multilingual puzzle\n"); /* program */
 return (0); /* if successful */
 }
