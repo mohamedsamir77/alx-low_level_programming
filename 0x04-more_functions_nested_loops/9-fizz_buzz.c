@@ -13,24 +13,25 @@ int main(void)
 
 	while (i <= 100)
 	{
-		if (i % 3 == 0)
+		if (i % 3 == 0 && i % 5 == 0)
 		{
-			if (i % 5 == 0)
-				printf("FizzBuzz ");
-			else
-				printf("Fizz ");
+			printf(" FizzBuzz");
 		}
-		else if (i % 5 == 0)
+		else if (i % 3 == 0 && i % 5 != 0)
 		{
-			printf("Buzz ");
+			printf(" Fizz");
 		}
-		else if (i == 100)
+		else if (i % 3 != 0 && i % 5 == 0)
+		{
+			printf(" Buzz");
+		}
+		else if (i == 1)
 		{
 			printf("%d", i);
 		}
 		else
 		{
-			printf("%d ", i);
+			printf(" %d", i);
 		}
 		i++;
 	}
